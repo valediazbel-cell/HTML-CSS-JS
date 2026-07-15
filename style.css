@@ -5,7 +5,7 @@
    font-family: 'Segoe UI',sans-serif;
 }
 body {
-    background-color: #020c2b;
+    background-color: #0b0c2b;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -13,12 +13,37 @@ body {
     padding: 20px;
 
 }
-#contador {
-    background-color: rgb(20, 139, 219);
-    border-radius: 16px;
-    padding: 40px;
-    max-width: 500px;
-    width: 100%;
-    color: #eee;
 
+#contador {
+    background-color: rgb(122, 248, 255);
+    
+    padding: 90px 90px;
+    max-width: 440px;
+    width: 100%;
+    color: #000000;
+  
+}
+#comandos {
+    padding: 40px 40px;
+    font-size: 60px;
+    margin: 20px;
+    
+}
+p#numero {
+   
+    padding: 40px 40px;
+    font-size: 50px;
+
+}
+button#incrementar {
+    color: rgb(255, 255, 255);
+    background-color:rgb(100, 20, 80) ;
+    padding:20px 40px;
+      font-size: 20px;
+}
+button#decrementar {
+    color: aliceblue;
+    background-color:rgb(100, 20, 80) ;
+    padding:20px 40px;
+      font-size: 20px;
 }
